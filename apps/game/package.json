@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "dodging-fish-game",
+  "version": "0.0.16",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf .turbo && rm -rf node_modules",
+    "resources": "cordova-res android --skip-config --copy"
+  },
+  "devDependencies": {
+    "vite": "^3.0.3",
+    "vite-plugin-pwa": "^0.12.3"
+  },
+  "dependencies": {
+    "i18next": "^21.8.14",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "phaser": "^3.55.2",
+    "phaser3-rex-plugins": "^1.1.71"
+  }
+}
